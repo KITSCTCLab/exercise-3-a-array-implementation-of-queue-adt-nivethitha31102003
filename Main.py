@@ -88,7 +88,7 @@ class Solution:
             character: A character that will be enqueued to queue.
         """
         if len(self.queue)==0:
-            self.front=0
+            self.front+=1
             self.rear+=1
        
 
